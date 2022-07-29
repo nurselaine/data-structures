@@ -16,6 +16,24 @@ class Solution {
 //             }
 //         }
         // Arrays.sort(nums1);
+        // another option that is o(m + n) time complexity and more efficient
+//                int[] copy = new int[m];
+//
+//        for(int i = 0; i < m; i++){
+//            copy[i] = nums1[i];
+//        }
+//
+//        int p1 = 0;
+//        int p2 = 0;
+//
+//        for(int j = 0; j < m + n; j++){
+//            if(p2 >= n || (p1 < m && copy[p1] < nums2[p2])){
+//                nums1[j] = copy[p1++];
+//            } else {
+//                nums1[j] = nums2[p2++];
+//            }
+//        }
+//
 
         int i = 0;
         int j = 0;
